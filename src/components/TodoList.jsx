@@ -87,7 +87,7 @@ export function TodoList() {
 console.log(tasks);
   return (
       <div className='p-4 font-bold'>
-        <h1 className='text-xl pb-4'>Keep moving </h1>
+        <h1 className='text-xl pb-4'>WORK TASK</h1>
         <Input onAdd={handleAdd}/>
         <Summary  // taskCompleted={tasksCompleted} 
         taskUnCompleted={tasksUnCompleted}/>

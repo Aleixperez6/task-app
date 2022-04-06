@@ -7,7 +7,7 @@ function App() {
       <TodoList />
     </div>
     <div>
-      <h3 className='text-black font-semibold text-center pb-10'>made with 🖤 from <a href="http://aleix-dev.com/">@aleixdev</a>  </h3>
+      <h3 className='text-black font-semibold text-center pb-10'>made with 🖤 from @aleixdev  </h3>
     </div>
     </>
   );
