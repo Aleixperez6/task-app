@@ -38,9 +38,10 @@ export function Input({onAdd}) {
       name="description"
       type={"text"} 
       placeholder={"Task description"} 
-      className="p-4 rounded-md w-full mb-4 focus:outline-none" 
+      className="p-4 rounded-md w-full mb-4 focus:outline-none h-fit box-content" 
       value={form.description} 
-      onChange={handleForm} />
+      onChange={handleForm} 
+      />
 
 
       <button 
